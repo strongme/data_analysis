@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012-8-3 11:42:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.scbit.lsbi.protein.pojo.IdmapDbs" table="IDMAP_DBS" schema="LSBI">
+        
+        <id name="id" type="big_decimal">
+        	<column name="ID" precision="22" scale="0"></column>
+        </id>
+        
+        <property name="databaseName" type="string">
+        	<column name="DATABASE_NAME" length="30"></column>
+        </property>
+        
+        
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012-8-3 11:42:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.scbit.lsbi.protein.pojo.IdmapPart" table="IDMAP_PART" schema="LSBI">
+        
+        <id name="dbsId" type="java.lang.Short">
+        	<column name="DBS_ID" precision="4" scale="0" />
+        </id>
+        
+        <property name="id" type="string">
+        	<column name="ID" length="200"></column>
+        </property>
+        
+        <property name="geneidAc" type="string">
+			<column name="GENEID_AC" length="20"></column>        	
+        </property>
+        
+    </class>
+</hibernate-mapping>
